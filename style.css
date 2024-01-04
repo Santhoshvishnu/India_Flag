@@ -1,0 +1,96 @@
+.bg {
+    width: 900px; height: 600px;
+}
+
+.safron {
+    background-color: #FF9933;
+    height: 200px;
+}
+
+.white {
+    background-color: #ffffff;
+    height: 200px; width: 900px;
+    position: relative;
+}
+
+.green {
+    background-color: #138808;
+    height: 200px;
+}
+
+.white>.wheel {
+    border-radius: 50%;
+    background-color: white  ;
+    border: 8px solid #000080;
+    width: 170px; height: 170px;
+    position: absolute;
+    top: 7px; left: 357px;
+}
+
+.white > .wheel > #inner_circle {
+    border-radius: 50%;
+    background-color: #000080 ;
+    width: 50px; height: 50px;
+    position: absolute;
+    top: 60px; left: 60px;
+}
+
+.line {
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    left: 50%;
+    background: #000080;
+}
+
+.line:nth-child(1) {
+    transform: rotate(15deg)
+}
+ 
+.line:nth-child(2) {
+    transform: rotate(30deg)
+}
+ 
+.line:nth-child(3) {
+    transform: rotate(45deg)
+}
+ 
+.line:nth-child(4) {
+    transform: rotate(60deg)
+}
+ 
+.line:nth-child(5) {
+    transform: rotate(75deg)
+}
+ 
+.line:nth-child(6) {
+    transform: rotate(90deg)
+}
+ 
+.line:nth-child(7) {
+    transform: rotate(105deg)
+}
+ 
+.line:nth-child(8) {
+    transform: rotate(120deg)
+}
+ 
+.line:nth-child(9) {
+    transform: rotate(135deg)
+}
+ 
+.line:nth-child(10) {
+    transform: rotate(150deg)
+}
+ 
+.line:nth-child(11) {
+    transform: rotate(165deg)
+}
+ 
+.line:nth-child(12) {
+    transform: rotate(180deg)
+}
+
+.line:nth-child(13) {
+    transform: rotate(195deg)
+}
